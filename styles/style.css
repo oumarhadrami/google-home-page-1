@@ -117,3 +117,36 @@ body {
         color: #222;
         box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
+
+footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #f2f2f2;
+        line-height: 40px;
+        border-top: 1px solid #e4e4e4;
+}
+
+.left-footer-container{
+        margin-left: 27px;
+        float: left;
+}
+
+.right-footer-container{
+        float: right;
+        margin-right: 27px;
+}
+
+.footer-item{
+        font-size: 13px;
+        font-family: arial,sans-serif;
+        color: #5f6368;
+        text-decoration: none;
+        padding-left: 27px;
+        margin: 0;
+}
+
+.footer-item:hover{
+        text-decoration: underline;
+}
