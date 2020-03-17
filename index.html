@@ -4,19 +4,38 @@
 <head>
         <meta charset="utf-8">
         <title>Google Home Page</title>
-        <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
         <link href="styles/reset.css" rel="stylesheet" type="text/css" media="all">
+        <link href="styles/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-<header>
-        <div class="top-bar-container">
-                <a class="gmail-link" href="http://mail.google.com/">Gmail</a>
-                <a class="images-link" href="https://www.google.com/imghp">Images</a>
-                <a class="product-button" href="https://www.google.com/intl/en/about/products?tab=ih" role="button"><img src="images/googleapps.svg" 
-                width="16px" height="16px" alt="Google apps"></a>
-                <a class="signin-button" href="https://accounts.google.com/ServiceLogin?hl=en" role="button">Sign in</a>
-        </div>
-</header>
+        <header>
+                <div class="top-bar-container">
+                        <a class="gmail-link" href="http://mail.google.com/">Gmail</a>
+                        <a class="images-link" href="https://www.google.com/imghp">Images</a>
+                        <a class="product-button" href="https://www.google.com/intl/en/about/products?tab=ih" role="button"><img src="images/googleapps.svg" 
+                        width="16px" height="16px" alt="Google apps"></a>
+                        <a class="signin-button" href="https://accounts.google.com/ServiceLogin?hl=en" role="button">Sign in</a>
+                </div>
+        </header>
+        <div class="empty-space" style="height: 145px;"></div>
+        <img id="google-logo" src="/images/google_logo.png" alt="google-logo">
+        <div style="height: 29px;"></div>
+        <form margin: 0 auto;">
+                <div class="searchbox">
+                        <img id="search-icon" src="/images/search-icon.png" alt="search" >
+                        <input type="text" id="search-text" maxlength="2048" role="combobox">
+                        <img id="mic-icon" src="/images/micro.jpg" alt="mic">
+                </div>
+                <div class="search-buttons-container">
+                        <input type="button" id="search-button" value="Google Search">
+                        <input type="button" id="lucky-button" value="I'm Feeling Lucky">
+                </div>
+        </form>
+        
+        
+        
+        
+        
         <script src="scripts/main.js"></script>
 </body>
 
