@@ -37,6 +37,10 @@ body {
         background: -webkit-linear-gradient(top,#4387fd,#4683ea);
 }
 
+.signin-button:hover{
+        opacity: 0.9;
+}
+
 
 .gmail-link:hover, .images-link:hover{
         text-decoration: underline;
